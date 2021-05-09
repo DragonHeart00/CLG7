@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sulaimankasas/Desktop/CLG7/Controller.h
+stdlib.h
+-
+string.h
+-
+time.h
+-
+stdio.h
+-
+stdbool.h
+-
+ctype.h
+-
+
+/Users/sulaimankasas/Desktop/CLG7/GameLogic.c
+GameLogic.h
+/Users/sulaimankasas/Desktop/CLG7/GameLogic.h
+unistd.h
+-
+
+/Users/sulaimankasas/Desktop/CLG7/GameLogic.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+stdbool.h
+-
+Controller.h
+/Users/sulaimankasas/Desktop/CLG7/Controller.h
+
