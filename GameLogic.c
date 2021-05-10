@@ -908,7 +908,7 @@ void SplitDeck(struct Game *game, int nSplitNumber, char message[]) {
 
     while (nSplitNumber > 0) {
 
-        int ListCounter = ListCount(game->Piles[iIndex].cardList);
+        int ListCounter =ListCount(game->Piles[iIndex].cardList);
         while (ListCounter > 0) {
             MoveCardToPile1(game, 6, iIndex);
             DisplayPiles(game);
